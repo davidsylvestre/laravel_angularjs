@@ -11,7 +11,7 @@ class ClientTableSeeder extends Seeder
      */
     public function run()
     {
-        \DasProject\Client::truncate();
-        factory(\DasProject\Client::class, 10)->create();
+        \DasProject\Models\Client::truncate();
+        factory(\DasProject\Models\Client::class, 10)->create();
     }
 }

@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(DasProject\User::class, function (Faker\Generator $faker) {
+$factory->define(DasProject\Models\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
@@ -20,7 +20,7 @@ $factory->define(DasProject\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(DasProject\Client::class, function (Faker\Generator $faker) {
+$factory->define(DasProject\Models\Client::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'responsible' => $faker->name,

@@ -2,7 +2,8 @@
 
 namespace DasProject\Http\Controllers;
 
-use DasProject\Client;
+use DasProject\Models\Client;
+use DasProject\Repositories\ClientRepository;
 use Illuminate\Http\Request;
 
 use DasProject\Http\Requests;
@@ -10,14 +11,15 @@ use DasProject\Http\Controllers\Controller;
 
 class ClientController extends Controller
 {
-    /**
+    /**.
      * Display a listing of the resource.
      *
      * @return Response
      */
-    public function index()
+    public function index(ClientRepository $repositorie)
     {
-        return \DasProject\Client::all();
+        //return Client::all();
+        return $repositorie->all();
     }
 
     /**
