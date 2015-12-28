@@ -2,24 +2,28 @@
 
 namespace DasProject\Http\Controllers;
 
-use DasProject\Models\Client;
 use DasProject\Repositories\ClientRepository;
 use Illuminate\Http\Request;
 
-use DasProject\Http\Requests;
-use DasProject\Http\Controllers\Controller;
-
 class ClientController extends Controller
 {
+
+    private $repository;
+
+    public function __construct(ClientRepository $repository)
+    {
+        $this->repository = $repository;
+    }
+
     /**.
      * Display a listing of the resource.
      *
      * @return Response
      */
-    public function index(ClientRepository $repositorie)
+    public function index()
     {
         //return Client::all();
-        return $repositorie->all();
+        return $this->repository->all();
     }
 
     /**
@@ -30,7 +34,7 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        return Client::create($request->all());
+        return $this->repository->create($request->all());
     }
 
     /**
@@ -41,7 +45,7 @@ class ClientController extends Controller
      */
     public function show($id)
     {
-        return Client::find($id);
+        return $this->repository->find($id);
     }
 
     /**
@@ -53,7 +57,7 @@ class ClientController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $client = Client::find($id);
+        $client = $this->repository->find($id);
         $client->fill($request->all())
                ->save();
         return $client;
@@ -67,6 +71,6 @@ class ClientController extends Controller
      */
     public function destroy($id)
     {
-        Client::find($id)->delete();
+        $this->repository->delete($id);
     }
 }

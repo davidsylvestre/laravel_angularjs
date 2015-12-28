@@ -143,6 +143,8 @@ return [
         DasProject\Providers\AppServiceProvider::class,
         DasProject\Providers\EventServiceProvider::class,
         DasProject\Providers\RouteServiceProvider::class,
+        # my providers
+        DasProject\Providers\DasRepositoryProvider::class,
 
         
 
