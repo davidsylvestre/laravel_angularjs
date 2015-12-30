@@ -1,0 +1,812 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"request"
+			],
+			[
+				"Cli",
+				"ClientService"
+			],
+			[
+				"Re",
+				"Repositories	(ClientController.php)"
+			],
+			[
+				"Das",
+				"DasRepositoryProvider	(DasRepositoryProvider.php)"
+			],
+			[
+				"ClientRe",
+				"ClientRepository	(ClientController.php)"
+			],
+			[
+				"dn",
+				"dnaB"
+			],
+			[
+				"d",
+				"dnaB"
+			],
+			[
+				"fun",
+				"funcionario"
+			],
+			[
+				"atu",
+				"atual"
+			],
+			[
+				"numero",
+				"numeroCorrente"
+			],
+			[
+				"num",
+				"numeroEmRomano"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"asse",
+				"assertEquals"
+			],
+			[
+				"en",
+				"encontrar"
+			],
+			[
+				"ca",
+				"carrinho"
+			],
+			[
+				"Carr",
+				"CarrinhoDeCompras"
+			],
+			[
+				"prod",
+				"produto"
+			],
+			[
+				"pro",
+				"produto"
+			],
+			[
+				"Ca",
+				"CarrinhoDeCompras"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"Chamado",
+				"ChamadoObjeto"
+			],
+			[
+				"req",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Entities/Core/Client.php",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "impo",
+		"selected_items":
+		[
+			[
+				"impo",
+				"PHPCompanion:Import Namespace"
+			],
+			[
+				"common",
+				"PHPCompanion:Import Namespace"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"markdo",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"snippet",
+				"Snippet: mySnippetData"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tri",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"php",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"format",
+				"Format CSS: Expanded"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"tmpl",
+				"Tmpl: Create descicao funcional"
+			],
+			[
+				"set sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"tpl",
+				"Tmpl: Create descicao funcional"
+			],
+			[
+				"SET SQ",
+				"Set Syntax: SQL"
+			],
+			[
+				"line end",
+				"Line Endings: List the Line Endings of All Files in the Project"
+			],
+			[
+				"space",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"create",
+				"Tmpl: Create python"
+			],
+			[
+				"createfile",
+				"Create file from Template"
+			],
+			[
+				"temp",
+				"Create file from Template"
+			],
+			[
+				"templ",
+				"Create file from Template"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import help",
+			"clear()",
+			"clear",
+			"sublime_tmpl",
+			"help(sublime_tmpl)",
+			"sublime_tmpl(type='css')",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/Core",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/seeds"
+	],
+	"file_history":
+	[
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/seeds/ClientTableSeeder.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/EloquentEntities/Client.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/readme.md",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Validators/ClientValidator.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Services/ClientService.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Http/routes.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Http/Controllers/ClientController.php",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/PhpNamespace/Default (Windows).sublime-keymap",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/User/Base File.sublime-settings",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/PhpNamespace/Base File.sublime-settings",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Repositories/ClientRepository.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Providers/DasRepositoryProvider.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Repositories/Eloquent/ClientRepositoryEloquent.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/config/app.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/vendor/classpreloader/classpreloader/src/Config.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/bootstrap/app.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Models/Client.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/factories/ModelFactory.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/config/repository.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Models/User.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/bootstrap/autoload.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/config/database.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/.env",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/.env.example",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/database/factories/ModelFactory.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Post.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Http/routes.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Http/Controllers/PostsController.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/posts/index.blade.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/database/migrations/2015_12_22_151001_create_posts_table.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Http/Controllers/TestController.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/teste/notas.blade.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/config/database.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/config/app.php",
+		"/D/USR/Sistemas/google-python-exercises/basic/string1.py",
+		"//contab_33/USR/Sistemas/app/console.bat",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/app.blade.php",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/produtos.blade.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/home.blade.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Http/Controllers/Controller.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Produto.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/app/Http/Controllers/ProdutosController.php",
+		"/F/Usr/Temp/Jaime/hd/index.php",
+		"/D/USR/Sistemas/Particular/php/Scripts/index.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/database/migrations/2015_12_14_152933_create_produtos_table.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/resources/views/index.html",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/public/index.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/bootstrap/autoload.php",
+		"/D/USR/Sistemas/Particular/projetos/laravelEssencial/laravel/bootstrap/app.php",
+		"/D/USR/Sistemas/demo/index.html",
+		"/D/USR/Sistemas/demo/app.js",
+		"/C/Users/DASYLVESTRE/Downloads/atividade complementar/videoplayback.htm",
+		"/D/USR/Sistemas/demo/vue.js",
+		"/D/USR/Sistemas/conta.py",
+		"/C/Users/DASYLVESTRE/exercism/javascript/leap/leap.spec.js",
+		"/C/Users/DASYLVESTRE/exercism/javascript/leap/leap.js",
+		"/C/Users/DASYLVESTRE/exercism/javascript/hello-world/hello-world.spec.js",
+		"/C/Users/DASYLVESTRE/exercism/javascript/hello-world/hello-world.js",
+		"/D/USR/Sistemas/Particular/projetos/tutorial_django/env/Scripts/manage.bat",
+		"/D/USR/Sistemas/Particular/projetos/tutorial_django/env/script/manage.bat",
+		"/D/USR/Sistemas/Particular/projetos/tutorial_django/env/script/manage",
+		"/D/USR/Sistemas/Particular/projetos/tutorial_django/mysite/polls/models.py",
+		"/D/USR/Sistemas/Particular/projetos/tutorial_django/mysite/mysite/settings.py",
+		"/C/Users/DASYLVESTRE/Desktop/Diario.md",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/User/mySnippetData.sublime-snippet",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Carrinho/MaiorPreco.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Carrinho/CarrinhoDeCompras.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Produto/MaiorPreco.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/RH/Funcionario.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Produto/CarrinhoDeCompras.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/RH/TabelaCargos.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/tests/CDC/Loja/RH/CalculadoraDeSalarioTest.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/RH/CalculadoraDeSalario.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Produto/MaiorEMenor.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/tests/CDC/Exemplos/ConversorDeNumeroRomanoTest.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Exemplos/ConversorDeNumeroRomano.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/tests/CDC/Loja/Produto/MaiorEMenorTest.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/index.php",
+		"/D/USR/Sistemas/Particular/estudo_tdd/src/CDC/Loja/Produto/Produto.php",
+		"/F/Usr/Colaboradores/dasylvestre/594561_Atualiza_Clientes/Automatizar_Rodar.sql",
+		"/D/USR/Sistemas/Particular/html/teste.css",
+		"/D/USR/Sistemas/Particular/html/jquery.min.js",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/database/seeds/DatabaseSeeder.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/app/Entities/Objetos.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/database/seeds/ObjetoTableSeeder.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/app/Repositories/Eloquent/ObjetoRepositoryEloquent.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/database/migrations/2015_07_27_165411_create_objetos_table.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/config/app.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/app/Repositories/ObjetoRepository.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/app/Repositories/Repositories/Eloquent/ObjetoRepositoryEloquent.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/database/factories/ModelFactory.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/.env",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/config/database.php",
+		"/D/USR/Sistemas/Particular/projetos/diario_lumen/database/migrations/2015_03_03_163655_create_objeto_table.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/config/repository.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/bootstrap/app.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/app/Console/Kernel.php",
+		"/D/USR/Sistemas/Particular/projetos/smarApontamento/.env.example",
+		"/D/USR/Sistemas/TSQLUnitSample/SampleTestExecutions.sql",
+		"/D/USR/Sistemas/TSQLUnitSample/03_TestSetup.sql",
+		"/D/USR/Sistemas/TSQLUnitSample/02_FrameworkInstall.sql",
+		"/D/USR/Sistemas/TSQLUnitSample/01_CreateDatabaseAndSchema.sql",
+		"/D/USR/Sistemas/TSQLUnitSample/DemoSetup.ps1",
+		"/D/USR/Sistemas/tsqlunit-0.92-rc1/0.92/test_install_tsqlunit.py",
+		"/D/USR/Sistemas/tsqlunit-0.92-rc1/0.92/test_tsqlunit.py",
+		"/D/USR/Sistemas/Particular/Brython3.2.0/teste.html",
+		"/F/Usr/Temp/david sylvestre/2.015/03-2015/Santander/EXTREL_MQO8_01_020415P_MOV.TXT",
+		"/F/Usr/Temp/david sylvestre/2.015/02-2015/Santander/EXTREL_MQO8_01_030315P_MOV.TXT",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/LineEndings/LineEndings.sublime-settings",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/User/Preferences.sublime-settings",
+		"/D/USR/Sistemas/app/sublime/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/F/Usr/Colaboradores/dasylvestre/C150521-067/LOA_Enviado.XML",
+		"/F/Usr/Colaboradores/dasylvestre/C150521-067/Loa_Matao.xml",
+		"/C/Users/DASYLVESTRE/Desktop/Novos Colaboradores Desenvolvimento/Atividade 12/Script de dados.sql",
+		"/C/Users/DASYLVESTRE/Desktop/CXD20000.sql",
+		"/F/Usr/Temp/Ricardo F/sprint 06 a 10 jul.txt",
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/05 - Cálculo Final com Intervalos da Curva.sql",
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/04 - Criação da View.sql",
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/03 - Cálculo do Percentual Acumulado.sql",
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/02 - Cálculo do Valor Vendido e Percentual.sql",
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/01 - Criação da Tabela.sql",
+		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/env/Scripts/activate_this.py",
+		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/smarts/app/views/__init__.py",
+		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/smarts/app/__init__.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"repositorie",
+			"(print)\\s(.+)\\n\\r$",
+			"(print)\\s(.+)\\n$",
+			"(print)\\s(.+)\\n",
+			"(print)\\s(.+)\\n$",
+			"(print)\\s(.+)\\r\\n$",
+			"(print)\\s(.+)$",
+			"(print)\\s([.]+?)",
+			"(print)\\s([.]+)",
+			"DasProject",
+			"data",
+			"$data",
+			"$",
+			"$data",
+			"return self._data",
+			"return this._data",
+			"_getData",
+			"_data",
+			"function Vue",
+			"Vue",
+			"saldo",
+			"#tmp_TTT10600",
+			"#TTT10600",
+			"isLeapYear",
+			"administradora",
+			"carronho",
+			"carrinho",
+			"valor",
+			"nome",
+			"#tmp_011",
+			"#tmp_Vinculo",
+			"@idselecionado",
+			"#tmp_011",
+			"@PA_resultado_01",
+			"@delay",
+			"INNER",
+			"main-nav",
+			"content-sidebar",
+			"div",
+			"asside",
+			"sidenote",
+			"place",
+			"</div>\n        <article>",
+			"<div class='place'>",
+			"jquery",
+			"''",
+			"draw",
+			"_space",
+			"characters",
+			"charac",
+			"show",
+			"space",
+			"contabilização",
+			"print",
+			"sistem_6",
+			"\\r\\n",
+			"+g",
+			"+t",
+			",\n",
+			"#TMP_movto_acao_LOA",
+			"<CodigoAcao>",
+			"#TMP_movto_acao_LOA",
+			"<ValorCustoFinanceiro>",
+			"valorex2",
+			"Valor_Exercicio_02",
+			"valorex2",
+			"2045",
+			"<CodigoPrograma>0011",
+			"apontamento",
+			"Apontamento",
+			"apontamento",
+			"Apontamento",
+			"ObjetoChamado",
+			"ChamadoObjeto",
+			"chamado",
+			"Chamado",
+			"ChamadoObjeto",
+			"Objeto",
+			"chamado",
+			"Chamado",
+			"chamado",
+			"Chamado",
+			"Apontamento",
+			"resposta",
+			"echo",
+			"Apontamento",
+			"apontamentos",
+			"Objeto",
+			"objetos",
+			"Chamado",
+			"chamado",
+			"Chamado",
+			"Apontamento",
+			"chamado",
+			"Chamado",
+			"objetos",
+			"Objeto",
+			"objetos",
+			"Objeto",
+			"Chamado",
+			"objeto",
+			"Objeto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"title",
+			"'",
+			"></",
+			"							",
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Entities/Core/Client.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project_Laravel_Angularjs.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"read",
+				"readme.md"
+			],
+			[
+				"daspro",
+				"app\\Providers\\DasRepositoryProvider.php"
+			],
+			[
+				"config/",
+				"config\\app.php"
+			],
+			[
+				"config",
+				"vendor\\classpreloader\\classpreloader\\src\\Config.php"
+			],
+			[
+				"app",
+				"bootstrap\\app.php"
+			],
+			[
+				"clientre",
+				"app\\Repositories\\Eloquent\\ClientRepositoryEloquent.php"
+			],
+			[
+				"route",
+				"app\\Http\\routes.php"
+			],
+			[
+				"controllercli",
+				"app\\Http\\Controllers\\ClientController.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"clientcont",
+				"app\\Http\\Controllers\\ClientController.php"
+			],
+			[
+				"clientcontr",
+				"app\\Http\\Controllers\\ClientController.php"
+			],
+			[
+				"clientcontro",
+				"app\\Http\\Controllers\\ClientController.php"
+			],
+			[
+				"client",
+				"app\\Models\\Client.php"
+			],
+			[
+				"repos",
+				"config\\repository.php"
+			],
+			[
+				"clinetc",
+				"app\\Http\\Controllers\\ClientController.php"
+			],
+			[
+				".env",
+				".env - Cópia.example"
+			],
+			[
+				"data",
+				"config\\database.php"
+			],
+			[
+				"routes",
+				"app\\Http\\routes.php"
+			],
+			[
+				"model",
+				"database\\factories\\ModelFactory.php"
+			],
+			[
+				"postscon",
+				"app\\Http\\Controllers\\PostsController.php"
+			],
+			[
+				"createpost",
+				"database\\migrations\\2015_12_22_151001_create_posts_table.php"
+			],
+			[
+				"post",
+				"app\\Post.php"
+			],
+			[
+				"database",
+				"config\\database.php"
+			],
+			[
+				"app.blade",
+				"resources\\views\\app.blade.php"
+			],
+			[
+				".balde",
+				"resources\\views\\home.blade.php"
+			],
+			[
+				"produto",
+				"resources\\views\\produtos.blade.php"
+			],
+			[
+				"testcontro",
+				"app\\Http\\Controllers\\TestController.php"
+			],
+			[
+				"controler.php",
+				"app\\Http\\Controllers\\Controller.php"
+			],
+			[
+				"create_produto",
+				"database\\migrations\\2015_12_14_152933_create_produtos_table.php"
+			],
+			[
+				"produ",
+				"app\\Http\\Controllers\\ProdutosController.php"
+			],
+			[
+				"bootstrap/",
+				"bootstrap\\autoload.php"
+			],
+			[
+				"bootstrap/app",
+				"bootstrap\\app.php"
+			],
+			[
+				"index",
+				"public\\index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
