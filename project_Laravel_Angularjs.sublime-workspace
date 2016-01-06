@@ -100,10 +100,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/Entities/Core/Client.php",
+			"file": "database/migrations/2015_12_30_144220_create_projects_table.php",
 			"settings":
 			{
-				"buffer_size": 233,
+				"buffer_size": 1058,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/ProjectTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/factories/ModelFactory.php",
+			"settings":
+			{
+				"buffer_size": 1439,
 				"line_ending": "Windows"
 			}
 		}
@@ -115,10 +131,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "impo",
+		"height": 334.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"impo",
 				"PHPCompanion:Import Namespace"
@@ -130,10 +150,6 @@
 			[
 				"re",
 				"Package Control: Remove Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"set php",
@@ -256,7 +272,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 497.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -285,14 +301,20 @@
 	[
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Console",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/Core",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database",
-		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/seeds"
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/storage"
 	],
 	"file_history":
 	[
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/seeds/ClientTableSeeder.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/migrations/2015_07_17_014833_create_clients_table.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/factories/ModelFactory.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Repositories/Eloquent/ClientRepositoryEloquent.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/Core/User.php",
+		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/Core/Client.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities/EloquentEntities/Client.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Entities",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/readme.md",
@@ -306,12 +328,10 @@
 		"/D/USR/Sistemas/app/sublime/Data/Packages/PhpNamespace/Base File.sublime-settings",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Repositories/ClientRepository.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Providers/DasRepositoryProvider.php",
-		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Repositories/Eloquent/ClientRepositoryEloquent.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/config/app.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/vendor/classpreloader/classpreloader/src/Config.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/bootstrap/app.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Models/Client.php",
-		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/database/factories/ModelFactory.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/config/repository.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/app/Models/User.php",
 		"/D/USR/Sistemas/Particular/projetos/php/laravel_angularjs/bootstrap/autoload.php",
@@ -416,10 +436,7 @@
 		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/04 - Criação da View.sql",
 		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/03 - Cálculo do Percentual Acumulado.sql",
 		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/02 - Cálculo do Valor Vendido e Percentual.sql",
-		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/01 - Criação da Tabela.sql",
-		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/env/Scripts/activate_this.py",
-		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/smarts/app/views/__init__.py",
-		"/D/USR/Sistemas/Particular/projetos/flaskappbuilder/smarts/app/__init__.py"
+		"/C/Users/DASYLVESTRE/Desktop/CurvaABC/CurvaABC/01 - Criação da Tabela.sql"
 	],
 	"find":
 	{
@@ -430,6 +447,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"D:\\USR\\Sistemas\\Particular\\projetos\\php\\laravel_angularjs\\app,D:\\USR\\Sistemas\\Particular\\projetos\\php\\laravel_angularjs\\database"
 		]
 	},
 	"find_state":
@@ -437,6 +455,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DasProject\\Models",
 			"repositorie",
 			"(print)\\s(.+)\\n\\r$",
 			"(print)\\s(.+)\\n$",
@@ -546,6 +565,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"DasProject\\Entities\\Core",
 			"title",
 			"'",
 			"></",
@@ -561,24 +581,54 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Entities/Core/Client.php",
-					"semi_transient": true,
+					"file": "database/migrations/2015_12_30_144220_create_projects_table.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 233,
+						"buffer_size": 1058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								34
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/seeds/ProjectTableSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
 							]
 						],
 						"settings":
@@ -590,6 +640,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "database/factories/ModelFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -643,6 +723,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"clients_",
+				"database\\migrations\\2015_07_17_014833_create_clients_table.php"
+			],
+			[
+				"2015_12_30_144220_create_projects_table",
+				"database\\migrations\\2015_12_30_144220_create_projects_table.php"
+			],
 			[
 				"read",
 				"readme.md"
